@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&family=Mulish:wght@500;600;700;800&display=swap");
+
+// variable
+$base-color: #d2bd77;
+$card-color: #faf9f8;
+$text-color: rgb(56, 56, 56);
+$hover-color: #a89861;
+$text-mulish: "Mulish", sans-serif;
+$text-cormorat: "Cormorant", serif;
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.one {
+  margin-bottom: 5em;
+  .custom-container {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    .container-fluid {
+      margin-bottom: 1em;
+      .navbar-brand {
+        color: $text-color;
+        padding-left: 5em;
+      }
+
+      .profil-login {
+        padding-right: 5em;
+      }
+    }
+  }
+}
+
+.two {
+  background-color: #fafafa;
+
+  .container-fluid {
+    .room-view {
+      .btn-select-villa {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        font-size: 11px;
+        border-radius: 2px;
+        border: 1px solid rgb(104, 158, 244);
+        padding-left: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+    }
+    .left-side {
+      padding-top: 3em;
+      padding-left: 7.4em;
+    }
+
+    .filter {
+      margin-top: 30px;
+      padding-left: 7.4em;
+      margin-bottom: 50px;
+    }
+    .filter-menu {
+      padding-left: 7.4em;
+      margin-bottom: 10px;
+    }
+    .room-view {
+      padding-left: 7.4em;
+    }
+  }
+
+  .line-separator {
+    border-right: 1px solid rgb(214, 214, 214);
+    width: 100%;
+  }
+
+  .room-selection {
+    padding-top: 3em;
+  }
+
+  .card {
+    width: 900px;
+    height: 263px;
+    margin-bottom: 15px;
+
+    .card-img {
+      padding-left: 40px;
+
+      .type-villa {
+        font-size: 20px;
+        padding-bottom: 10px;
+      }
+
+      .icon-size {
+        margin-right: 5px;
+      }
+      .icon-view {
+        margin-left: 10px;
+        margin-right: 5px;
+      }
+      .icon-bed {
+        margin-left: 10px;
+        margin-right: 5px;
+      }
+      .icon-person {
+        margin-left: 10px;
+        margin-right: 5px;
+      }
+
+      .des-facilities {
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+      }
+
+      .price-detail {
+        .btn-select-villa {
+          height: 40px;
+          background-color: $base-color;
+          border-radius: 2px;
+          border: none;
+          padding-left: 1em;
+          padding-right: 1em;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+
+    .img-booking {
+      width: 370px;
+      height: 220px;
+    }
+
+    .card-body {
+      .icon-bed {
+        width: 30px;
+        height: 30px;
+      }
+      .icon-person {
+        width: 30px;
+        height: 30px;
+      }
+      .icon-bed {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

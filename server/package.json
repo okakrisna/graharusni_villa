@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@develoka/angka-rupiah-js": "^1.0.3",
+    "express": "^4.18.3",
+    "knex": "^3.1.0",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "rupiah": "^0.0.4-beta",
+    "rupiah-format": "^1.0.0",
+    "to-rupiah": "^1.0.5"
+  }
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&family=Mulish:wght@500;600;700;800&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.one {
+  margin-bottom: 5em;
+}
+.one .custom-container {
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.one .custom-container .container-fluid {
+  margin-bottom: 1em;
+}
+.one .custom-container .container-fluid .navbar-brand {
+  color: rgb(56, 56, 56);
+  padding-left: 5em;
+}
+.one .custom-container .container-fluid .profil-login {
+  padding-right: 5em;
+}
+
+.two {
+  background-color: #fafafa;
+}
+.two .container-fluid .room-view .btn-select-villa {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 11px;
+  border-radius: 2px;
+  border: 1px solid rgb(104, 158, 244);
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.two .container-fluid .left-side {
+  padding-top: 3em;
+  padding-left: 7.4em;
+}
+.two .container-fluid .filter {
+  margin-top: 30px;
+  padding-left: 7.4em;
+  margin-bottom: 50px;
+}
+.two .container-fluid .filter-menu {
+  padding-left: 7.4em;
+  margin-bottom: 10px;
+}
+.two .container-fluid .room-view {
+  padding-left: 7.4em;
+}
+.two .line-separator {
+  border-right: 1px solid rgb(214, 214, 214);
+  width: 100%;
+}
+.two .room-selection {
+  padding-top: 3em;
+}
+.two .card {
+  width: 900px;
+  height: 263px;
+  margin-bottom: 15px;
+}
+.two .card .card-img {
+  padding-left: 40px;
+}
+.two .card .card-img .type-villa {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.two .card .card-img .icon-size {
+  margin-right: 5px;
+}
+.two .card .card-img .icon-view {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.two .card .card-img .icon-bed {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.two .card .card-img .icon-person {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.two .card .card-img .des-facilities {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+.two .card .card-img .price-detail .btn-select-villa {
+  height: 40px;
+  background-color: #d2bd77;
+  border-radius: 2px;
+  border: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  color: white;
+}
+.two .card .img-booking {
+  width: 370px;
+  height: 220px;
+}
+.two .card .card-body .icon-bed {
+  width: 30px;
+  height: 30px;
+}
+.two .card .card-body .icon-person {
+  width: 30px;
+  height: 30px;
+}
+.two .card .card-body .icon-bed {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=booking.css.map */

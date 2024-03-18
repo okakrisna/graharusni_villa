@@ -1,0 +1,326 @@
+@import "js&css";
+// font
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@600;700&family=Mulish:wght@500;600;700;800&display=swap");
+
+// variable
+$base-color: #d2bd77;
+$card-color: #faf9f8;
+$text-color: rgb(56, 56, 56);
+$hover-color: #a89861;
+$text-mulish: "Mulish", sans-serif;
+$text-cormorat: "Cormorant", serif;
+
+// section 1
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+// navbar
+.one {
+  .custom-container {
+    background-color: rgb(250, 250, 250);
+    .container-fluid {
+      margin-bottom: 1em;
+      #navbarNav {
+        .navbar-nav {
+          padding-right: 5em;
+          .nav-item {
+            .nav-link {
+              margin-left: 1em;
+              color: $text-color;
+              font-family: "Mulish", sans-serif;
+              font-size: 0.9em;
+            }
+
+            .view-rates-btn {
+              background-color: $base-color;
+              border-radius: 4px;
+              border: none;
+              padding-left: 1em;
+              padding-right: 1em;
+              text-decoration: none;
+              color: white;
+              text-transform: uppercase;
+
+              &:hover {
+                color: $text-color;
+                background-color: $hover-color;
+                color: white;
+              }
+
+              &:focus {
+                outline: none;
+                box-shadow: none;
+              }
+            }
+          }
+        }
+      }
+
+      .navbar-brand {
+        color: $text-color;
+        padding-left: 5em;
+      }
+    }
+  }
+}
+
+// page2
+.two {
+  background-color: #f8f7f7;
+  padding-bottom: 1.2em;
+
+  .container-fluid {
+    position: relative;
+    width: 100%;
+
+    .video-home {
+      height: 687px;
+      pointer-events: none;
+
+      &::-webkit-media-controls {
+        display: none;
+      }
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%; /* Menempatkan teks di tengah vertikal */
+      left: 50%; /* Menempatkan teks di tengah horizontal */
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 50px;
+      font-family: $text-cormorat;
+    }
+  }
+
+  .card-menu {
+    .card-body {
+      width: 25em;
+      height: 7em;
+      margin-top: 1em;
+      border-radius: 0.2em;
+      background-color: white;
+      font-size: 0.7rem;
+      margin-left: 0.1em;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+      .calendar {
+        width: 500px;
+      }
+
+      #calendar-container {
+        display: none;
+        position: absolute;
+        background: #fff;
+        border: transparent;
+        padding: 10px;
+      }
+
+      #calendar-container.visible {
+        display: block;
+      }
+
+      .calendar input {
+        font-size: 1.1em;
+        font-family: $text-mulish;
+        font-weight: 600;
+        width: calc(50% - 5px);
+        margin-right: 5px;
+        border: none;
+        outline: none;
+        padding: 0;
+      }
+    }
+
+    .btn-rates {
+      .view-rates-btn2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10em;
+        height: 4.8em;
+        text-decoration: none;
+        border: none;
+        margin-left: 9px;
+        margin-top: 0.8em;
+        background-color: $base-color;
+        text-transform: uppercase;
+        font-weight: 500;
+
+        &:hover {
+          color: $text-color;
+          background-color: $hover-color;
+          color: white;
+        }
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+//page 3
+.three {
+  padding-top: 4em;
+  padding-bottom: 10em;
+  background-color: #efefef;
+
+  .graha-villa {
+    font-family: $text-mulish;
+    color: #9c8f74;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    font-family: $text-cormorat;
+    font-size: 3em;
+  }
+
+  .des-villa {
+    font-family: $text-cormorat;
+  }
+
+  .img-slider {
+    display: flex;
+    margin-top: 3em;
+    position: relative;
+    animation: slide 20s linear infinite;
+
+    .outdoor {
+      width: 400px;
+    }
+
+    .room {
+      position: relative;
+      width: 450px;
+      height: 300px;
+    }
+
+    .view {
+      flex-direction: column;
+      width: 450px;
+      height: 300px;
+    }
+
+    .pool {
+      position: absolute;
+      width: 430px;
+      height: 600px;
+      top: 0%;
+    }
+  }
+
+  .btn-villa {
+    border: 2px solid #524a3a;
+    background-color: #efefef;
+    padding: 10px 10px;
+    font-size: 1rem;
+    margin-top: 2em;
+    width: 18em;
+    height: 3em;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+//page 4
+.four {
+  background-color: #efefef;
+  padding-bottom: 10%;
+
+  .container-fluid {
+    //overflow: hidden;
+    .base {
+      justify-content: center;
+
+      h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 1.9em;
+        font-family: $text-cormorat;
+      }
+
+      p {
+        font-family: $text-cormorat;
+        margin-bottom: 2em;
+      }
+    }
+
+    .carousel {
+      display: flex;
+
+      .des-villa {
+        padding-top: 40px;
+      }
+
+      .room {
+        width: 700px;
+        height: auto;
+        max-width: 100%;
+        margin: 0 10px;
+      }
+
+      .type-villa {
+        font-size: 30px;
+      }
+
+      .facilites {
+        padding-top: 110px;
+
+        .des-facilities {
+          font-size: 11px;
+          display: flex;
+          align-items: center;
+        }
+        .icon-size {
+          margin-top: 8px;
+          width: 20px;
+          height: 20px;
+          margin-right: 5px;
+        }
+        .icon-view {
+          margin-top: 8px;
+          width: 23px;
+          height: 23px;
+          margin-left: 10px;
+          margin-right: 5px;
+        }
+        .icon-bed {
+          margin-top: 3px;
+          width: 30px;
+          height: 30px;
+          margin-left: 10px;
+          margin-right: 5px;
+        }
+        .icon-person {
+          margin-top: 3px;
+          width: 30px;
+          height: 30px;
+          margin-left: 10px;
+          margin-right: 5px;
+        }
+        .btn-select-villa {
+          height: 40px;
+          background-color: $base-color;
+          border-radius: 2px;
+          border: none;
+          padding-left: 1em;
+          padding-right: 1em;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
