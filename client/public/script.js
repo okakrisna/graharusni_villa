@@ -16,6 +16,4 @@ const fp = flatpickr(dataCalender, {
   },
 });
 
-// mengambil data dari database
-
 console.log("tes");

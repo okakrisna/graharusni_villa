@@ -5,6 +5,7 @@ const {
   getBooking,
   getDataimg,
 } = require("../controllers/villa");
+const { postVilla, postUsers, getAdmin } = require("../controllers/admin");
 const router = express.Router();
 //* users routing
 router.get("/", getHome);
@@ -13,5 +14,7 @@ router.get("/", getHome);
 // router.get(getDataVilla);
 router.get("/getDataVilla", getDataVilla);
 router.get("/booking", getBooking);
+router.get("/admin", getAdmin);
+router.post("/admin", postVilla);
 
 module.exports = router;

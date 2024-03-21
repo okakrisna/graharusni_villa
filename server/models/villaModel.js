@@ -24,4 +24,20 @@ const imgData = () => {
     });
 };
 
-module.exports = { findAllVilla, imgData };
+const createUsers = async (data) => {
+  try {
+    return knex("users").insert(data);
+  } catch (error) {
+    console.error("data gagal disimpan");
+  }
+};
+
+const createVilla = async (data) => {
+  try {
+    return knex("villa").insert(data);
+  } catch (error) {
+    console.error("data gagal disimpan");
+  }
+};
+
+module.exports = { findAllVilla, imgData, createUsers, createVilla };
